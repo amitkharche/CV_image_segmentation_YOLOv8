@@ -1,0 +1,3 @@
+model:
+  type: yolov8-seg
+  confidence: 0.25
