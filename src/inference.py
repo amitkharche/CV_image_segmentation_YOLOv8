@@ -8,4 +8,6 @@ def run_inference(model_path, input_path, save_dir="runs/segment/output"):
     return results
 
 if __name__ == "__main__":
-    run_inference("yolov8n-seg.pt", "sample.jpg")
+    #run_inference("yolov8n-seg.pt", "sample.jpg")
+    run_inference("runs/segment/train2/weights/best.pt", "sample.jpg")
+
